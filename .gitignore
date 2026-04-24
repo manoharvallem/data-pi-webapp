@@ -1,0 +1,27 @@
+# .gitignore for Data-Pi Web App Project
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+kubeconfig
+
+# Application
+node_modules/
+*.log
+.env
+secrets/
+
+# GCP
+gcp-key.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
