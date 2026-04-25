@@ -4,35 +4,35 @@
 - [x] Create GitHub repo with structure.
 - [x] Define architecture.
 - [x] Set up team and branch protection.
-- [ ] Create initial documentation.
+- [x] Create initial documentation.
 
 **Deliverables**: Repo initialized, docs/README.md, docs/ROADMAP.md.
 
 ## Phase 2: Infrastructure Provisioning with Terraform (3-5 days)
-- [ ] Write Terraform code for GKE cluster.
-- [ ] Set up Jenkins for infra deployment.
-- [ ] Deploy to data-pi-dev.
+- [x] Write Terraform code for GKE cluster.
+- [x] Set up Jenkins for infra deployment.
+- [x] Deploy to data-pi-dev.
 
 **Deliverables**: GKE cluster running.
 
 ## Phase 3: Application Development and Deployment (5-7 days)
-- [ ] Develop frontend, backend, DB.
-- [ ] Create K8s manifests.
-- [ ] Set up GitHub Actions for app deployment.
-- [ ] Deploy app to GKE.
+- [x] Develop frontend, backend, DB.
+- [x] Create K8s manifests.
+- [x] Set up GitHub Actions for app deployment.
+- [x] Deploy app to GKE.
 
 **Deliverables**: App accessible via browser.
 
 ## Phase 4: CI/CD, Security, and Scaling Prep (3-5 days)
-- [ ] Enhance pipelines.
-- [ ] Implement IAM and RBAC.
-- [ ] Add scaling configs.
+- [x] Enhance pipelines.
+- [x] Implement IAM and RBAC.
+- [x] Add scaling configs.
 
 **Deliverables**: Full automation.
 
 ## Phase 5: Testing, Documentation, and Review (2-3 days)
-- [ ] End-to-end testing.
-- [ ] Finalize docs.
-- [ ] Cost monitoring.
+- [x] End-to-end testing.
+- [x] Finalize docs.
+- [x] Cost monitoring.
 
 **Deliverables**: Production-ready app.
