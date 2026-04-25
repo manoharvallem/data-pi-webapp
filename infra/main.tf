@@ -23,5 +23,6 @@ resource "google_container_cluster" "data_pi_cluster" {
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform",
     ]
+    service_account = google_service_account.gke_sa.email
   }
 }
